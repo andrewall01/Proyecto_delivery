@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prueba</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+      .isolate {
+        isolation: isolate;
+      }
+
+      .fondo {
+        background-color: blue;
+        width: 100%;
+        display: flex;        
+      }
+
+      .obj1 {
+        width: 50%;
+        height: 300px;
+        position: absolute;
+        border-top-right-radius: 50%;
+        mix-blend-mode: normal;
+      }
+
+      .obj2 {
+        width: 50%;
+        height: 300px;
+        position: absolute;
+        border-bottom-left-radius: 50%;
+        mix-blend-mode: normal;
+      }
+
+      .first {
+        background: linear-gradient(rgb(70%, 0%, 40%), rgb(100%, 0%, 60%));
+      }
+
+      .second {
+        background: linear-gradient(rgb(30%, 70%, 0%), rgb(60%, 100%, 0%));
+        
+      }
+
+      
+    </style>
+  </head>
+  <body>
+    <div class="fondo">
+      <div class="verde" style="background: linear-gradient(rgb(30%, 70%, 0%), rgb(60%, 100%, 0%)); width: 50%; height: 300px;">
+        <div class="first obj1"></div>
+      </div>
+      <div class="rosado" style="background: linear-gradient(rgb(70%, 0%, 40%), rgb(100%, 0%, 60%)); width: 50%; height: 300px;">
+        <div class="second obj2"></div>
+      </div>
+    </div>
+  </body>
+</html>
