@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Prueba</title>
     <style>
-        *{
-            margin: 0;
-            padding: 0;
-        }
+      * {
+        margin: 0;
+        padding: 0;
+      }
       .isolate {
         isolation: isolate;
       }
@@ -16,7 +16,7 @@
       .fondo {
         background-color: blue;
         width: 100%;
-        display: flex;        
+        display: flex;
       }
 
       .obj1 {
@@ -41,19 +41,54 @@
 
       .second {
         background: linear-gradient(rgb(30%, 70%, 0%), rgb(60%, 100%, 0%));
+      }
+
+      .imagen{
+        display: flex;
+        flex-wrap: wrap;
+        width: 310px;
+        height: 310px;
+        background-image: url("./images/plato.jpg");
+        background-repeat: no-repeat;
+        border-top-left-radius: 50%;
+        border-bottom-left-radius: 50%;
+        border: 5px solid black;
+        padding: 20px;
         
       }
 
-      
     </style>
   </head>
   <body>
     <div class="fondo">
-      <div class="verde" style="background: linear-gradient(rgb(30%, 70%, 0%), rgb(60%, 100%, 0%)); width: 50%; height: 300px;">
+      <div
+        class="verde"
+        style="
+          background: linear-gradient(rgb(30%, 70%, 0%), rgb(60%, 100%, 0%));
+          width: 50%;
+          height: 300px;
+        "
+      >
         <div class="first obj1"></div>
       </div>
-      <div class="rosado" style="background: linear-gradient(rgb(70%, 0%, 40%), rgb(100%, 0%, 60%)); width: 50%; height: 300px;">
+      <div
+        class="rosado"
+        style="
+          background: linear-gradient(rgb(70%, 0%, 40%), rgb(100%, 0%, 60%));
+          width: 50%;
+          height: 300px;
+        "
+      >
         <div class="second obj2"></div>
+      </div>
+      <br />
+      <br /><br /><br />
+      
+    </div>
+
+    <div class="imagen">
+      <div>
+
       </div>
     </div>
   </body>
