@@ -1,0 +1,264 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  width: 100%;
+  max-width: 960px;
+  margin: auto;
+}
+
+body {
+  font-family: Verdana;
+  color: white;
+}
+
+h1 {
+  font-size: 6.4rem;
+  font-weight: 900;
+}
+
+h2 {
+  font-size: 2.8rem;
+  text-align: center;
+}
+
+/*Main*/
+
+header {
+  background-image: url("/images/fondo.jpg");
+  background-color: transparent;
+}
+
+.opacity {
+  background-color: rgba(75, 72, 72, 0.904);
+  width: 100%;
+  height: 500px;
+}
+
+.about {
+  background-color: #18171e;
+}
+
+/*Nosotros*/
+
+.nosotros {
+  background-color: #fe8f00;
+}
+
+.nosotros .contenedor {
+  display: flex;
+}
+
+.nosotros .izquierda{
+  width: 80%;
+  position: relative;
+  display: block;
+}
+
+.izquierda .parrafo1 {
+  width: 50%;
+  margin: 80px;
+  border-top-right-radius: 340px;
+  z-index: 2;
+  position: absolute;
+}
+
+.izquierda .esquina {
+  position: absolute;
+  z-index: 1;
+  right: 0;
+  width: 30%;
+  height: 24%;
+  background-color: #18171e;
+}
+
+.parrafo1 h2 {
+  padding-top: 15px;
+}
+
+.parrafo1 p {
+  font-size: 1.3rem;
+  line-height: 1.8rem;
+  text-align: justify;
+  padding: 15px 15px;
+  word-wrap: break-word;
+  padding: 35px;
+}
+
+.nosotros .dibujo {
+  background-color: #18171e;
+  border-bottom-left-radius: 340px;
+  text-align: right;
+  width: 50%;
+  margin-bottom: 30px;
+}
+
+.nosotros img {
+  border-bottom-left-radius: 240px;
+  border-top-left-radius: 240px;
+}
+
+/*Enjoy*/
+
+.enjoy {
+  background-color: #1e2026;
+  background-image: url("/images/fondo_enjoy.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+}
+
+.enjoy .cuadro {
+  width: 40%;
+  margin: 200px auto;
+  border: 4px solid #fe8f00;
+  padding: 0;
+}
+
+.enjoy p {
+  text-align: justify;
+  font-size: 1.3rem;
+  line-height: 1.8rem;
+  padding: 15px 15px;
+  word-wrap: break-word;
+}
+
+.enjoy h2 {
+  margin-top: 15px;
+}
+
+/*Menu*/
+
+.menu {
+  background-color: #18171e;
+  text-align: center;
+}
+
+.menu div {
+  padding: 0 25px 45px 25px;
+}
+
+.menu h2 {
+  padding: 40px 0 60px 0;
+}
+
+.menu p {
+  font-size: 1.3rem;
+}
+
+.menu1 {
+  padding: 0;
+  width: 30%;
+  display: inline-block;
+}
+
+.menu1 img {
+  width: 100%;
+  padding-bottom: 15px;
+}
+
+.menu .resaltado {
+  font-size: 2.1rem;
+  padding: 15px 0;
+  color: #fe8f00;
+}
+
+.menu1 p {
+  text-align: justify;
+  word-wrap: break-word;
+  line-height: 1.8rem;
+}
+
+/*The Best*/
+
+.best {
+  background-color: #fe8f00;
+}
+
+.best div {
+  display: inline-block;
+}
+
+.imagen_best {
+  width: 49%;
+}
+
+.parrafo {
+  width: 45%;
+  padding: 100px 5px;
+}
+
+.parrafo h2 {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.parrafo p {
+  text-align: justify;
+  word-wrap: break-word;
+  color: white;
+  line-height: 1.8rem;
+  font-size: 1.3rem;
+}
+
+/*Footer*/
+
+footer {
+  background-color: #333239;
+  padding: 20px;
+}
+
+footer h2 {
+  margin-bottom: 35px;
+}
+
+.indice {
+  padding: 0 0 20px 0;
+}
+
+.indice ul {
+  list-style-type: none;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.indice li {
+  display: inline;
+  text-align: center;
+  align-content: space-around;
+  margin: 0 25px 0 0;
+}
+
+.indice li a {
+  padding: 2px 7px 2px 7px;
+  color: white;
+  background-color: #333239;
+  border: 1px solid #333239;
+  text-decoration: none;
+  font-size: 1.3rem;
+}
+
+.indice li a:hover {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+.redes_sociales {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.redes_sociales a {
+  color: white;
+  font-size: 2.4rem;
+  padding: 7px;
+}
