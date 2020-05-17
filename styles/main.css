@@ -39,8 +39,16 @@ header {
   height: 500px;
 }
 
+/*About*/
+
 .about {
   background-color: rgb(24, 23, 30);
+}
+
+.about img{
+  width: 40%;
+  margin: 90px 0 90px 120px;
+
 }
 
 /*Nosotros*/
